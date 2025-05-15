@@ -10,9 +10,9 @@
     • Fill in $TenantId  $ClientId  $ClientSecret  below
     • Logs + console: C:\ProgramData\IntuneDeviceRenamer\logs\
 #>
-# authenticate to graph
-# user.read.all
-# group.read.all
+Device.Read.All (Application)
+DeviceManagementServiceConfig.Read.All (Application)
+User.Read (Delegated)
 
 # ========= 0.  SETTINGS =========
 $TenantId     = 'XXXXXXXXXXXXXXXXXXXXXXX'
